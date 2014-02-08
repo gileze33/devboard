@@ -1,1 +1,10 @@
-this is a single board
+<% include ../site/header %>
+
+<div class="container">
+	<% for(var i=0; i<Board.widgets.length; i++) { %>
+		<% var Widget = Board.widgets[i]; %>
+		<% include ../widget/tile %>
+	<% } %>
+</div>
+
+<% include ../site/footer %>

@@ -10,7 +10,11 @@
   "dependencies": {
     "express":"x.x",
     "mongoose":"x.x",
-    "ejs":"x.x"
+    "ejs":"x.x",
+    "sandcastle":"x.x",
+    "request":"x.x",
+    "connect-redis":"x.x",
+    "less":"x.x"
   },
   "repository": {
     "type": "git",
