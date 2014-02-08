@@ -8,7 +8,9 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "express":"x.x"
+    "express":"x.x",
+    "mongoose":"x.x",
+    "ejs":"x.x"
   },
   "repository": {
     "type": "git",
